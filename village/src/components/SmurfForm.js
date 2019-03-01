@@ -65,9 +65,13 @@ class SmurfForm extends Component {
             value={this.state.height}
             name="height"
           />
+          
           <Link
+          //set up new Route so clicking button brings you to smurf page
+          //switched Route to link, test 2^^^
           to='/'
           refresh='true'
+          //test 3^^^
           >
           <button type="submit" onClick={this.addSmurf}>Add to the village</button>
           </Link>
